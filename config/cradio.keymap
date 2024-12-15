@@ -57,7 +57,6 @@
     behaviors {
         reset_boot: reset_boot {
             compatible = "zmk,behavior-tap-dance";
-            label = "RESET_BOOT";
             #binding-cells = <0>;
             bindings = <&sys_reset>, <&bootloader>;
         };
